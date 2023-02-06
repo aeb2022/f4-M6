@@ -7,7 +7,7 @@ class LigarDB{
     private $database;
     private $connection;
 
-    public function __construct($host="localhost:3307", $username="root", $password="rootluis", $database="forca") {
+    public function __construct($host="localhost:3307", $username="utilizador", $password="password", $database="base_de_dados") {
         $this->host = $host;
         $this->username = $username;
         $this->password = $password;
